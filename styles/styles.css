@@ -1,0 +1,41 @@
+*{
+	font-family: 'Open Sans', sans-serif;
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width:80%;
+	overflow: auto;
+	margin: 0 auto;
+}
+
+.format_input{
+	width:100%;
+	border:none;
+	padding: 10px;
+	font-size: 1em;
+	border:1px solid #ccc;	
+	outline: none;
+	border-radius: 3px;
+	transition: .2s;
+	margin-bottom: 6px;
+}
+.format_input:focus{
+	border:1px solid orange;
+}
+label{
+	font-weight: bold;
+	font-size: .9em;
+}
+.l_btn{
+	background-color: orange;
+	color:white;
+	border:1px solid orange;
+	cursor: pointer;
+}
+.l_btn:hover{
+	background-color: #e68a00;
+}

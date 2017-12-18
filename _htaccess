@@ -1,0 +1,5 @@
+RewriteEngine On
+
+RewriteRule    ^newuser? new_user.php [NC,L]
+RewriteRule    ^user? user.php [NC,L]
+   
